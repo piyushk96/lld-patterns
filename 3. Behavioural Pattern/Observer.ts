@@ -2,6 +2,7 @@
  * Observer pattern example: YouTube channel subscription system
  */
 
+// Observer interface
 interface ISubscriber {
   update(): void;
 }
@@ -20,12 +21,14 @@ class Subscriber implements ISubscriber {
   }
 }
 
+// Observable interface
 interface IChannel {
   subscribe(subscriber: ISubscriber): void;
   unsubscribe(subscriber: ISubscriber): void;
   notifySubscribers(): void;
 }
 
+// Concrete Observable
 class Channel implements IChannel {
   private subscribers: ISubscriber[] = [];
   private name: string;
