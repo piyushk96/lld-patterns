@@ -1,3 +1,3 @@
 # LLD Patterns
 
-LLD Patterns and Examples in TypeScript
+LLD Patterns and Examples in TypeScript and Java
