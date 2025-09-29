@@ -1,5 +1,6 @@
 /**
- * Decorator Pattern allows you to add new behaviors to objects dynamically by placing them inside special wrapper objects that contain the behaviors.
+ * Decorator Pattern allows you to add new behaviors to objects dynamically by
+ * placing them inside special wrapper objects that contain the behaviors.
  */
 
 interface Character {
